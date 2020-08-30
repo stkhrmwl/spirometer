@@ -1,6 +1,8 @@
 #include <Adafruit_SGP30.h>
 #include <Arduino.h>
 #include <MySGP30.h>
+#include <PubSubClient.h>
+#include <WiFiClient.h>
 #include <Wire.h>
 
 MySGP30 sgp;
