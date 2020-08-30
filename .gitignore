@@ -4,6 +4,8 @@
 .vscode/launch.json
 .vscode/ipch
 
+env.*
+
 # Created by https://www.toptal.com/developers/gitignore/api/c++,platformio,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++,platformio,visualstudiocode
 
