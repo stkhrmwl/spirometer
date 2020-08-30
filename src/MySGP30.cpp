@@ -3,6 +3,8 @@
 #include <SPI.h>
 
 uint32_t MySGP30::getAbsoluteHumidity(float temperature, float humidity) {
+    // approximation formula from Sensirion SGP30 Driver Integration
+    // chapter 3.15
     const float absoluteHumidity =
         216.7f * ((humidity / 100.0f) * 6.112f *
                   exp((17.62f * temperature) / (243.12f + temperature)) /
